@@ -1,5 +1,12 @@
 # RabbitMQ Certificate Trust Store
 
+## This was migrated to https://github.com/rabbitmq/rabbitmq-server
+
+This repository has been moved to the main unified RabbitMQ "monorepo", including all open issues. You can find the source under [/deps/rabbitmq_trust_store](https://github.com/rabbitmq/rabbitmq-server/tree/master/deps/rabbitmq_trust_store).
+All issues have been transferred.
+
+## Overview
+
 This plugin provides an alternative [TLS (x.509) certificate verification](https://www.rabbitmq.com/ssl.html#peer-verification)
 strategy. Instead of the traditional PKI chain traversal mechanism,
 this strategy simply checks the leaf certificate presented by a client
